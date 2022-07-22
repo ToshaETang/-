@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+	<title>GPA 實際分數 轉換器</title>
+</head>
+
+<body style="background-color:rgba(194, 194, 194, 0.36);">
+
+	<input id="point" value="(輸入原始成績)">
+	<button type="button" onClick="go()">轉換</button>
+	<p id="gpa">等第/GPA : </p>
+
+	<h3>------------------</h3>
+
+	<input id="point2" value="(輸入等第)">
+	<button type="button" onClick="goo()">轉換</button>
+	<p id="G2">GPA/原始成績 : </p>
+
+	<h3>------------------</h3>
+	<p>*紅字代表不及格 </p>
+
+
+	<script>
+		function go(){
+			let inputPoint = document.getElementById("point").value; 
+      		
+			if(inputPoint>100){
+				document.getElementById("gpa").innerHTML = "等第/GPA : 錯誤"; 
+			}
+			else if(inputPoint<0){
+				document.getElementById("gpa").innerHTML = "等第/GPA : 錯誤"; 
+			}
+			else if(inputPoint>=90){
+				document.getElementById("gpa").innerHTML = "等第/GPA : A+/4.3"; 
+			}
+			else if(inputPoint>=85){
+				document.getElementById("gpa").innerHTML = "等第/GPA : A/4.0"; 
+			}
+			else if(inputPoint>=80){
+				document.getElementById("gpa").innerHTML = "等第/GPA : A-/3.7"; 
+			}
+			else if(inputPoint>=77){
+				document.getElementById("gpa").innerHTML = "等第/GPA : B+/3.3"; 
+			}
+			else if(inputPoint>=73){
+				document.getElementById("gpa").innerHTML = "等第/GPA : B/3.0"; 
+			}
+			else if(inputPoint>=70){
+				document.getElementById("gpa").innerHTML = "等第/GPA : B-/2.7"; 
+			}
+			else if(inputPoint>=67){
+				document.getElementById("gpa").innerHTML = "等第/GPA : C+/2.3"; 
+			}
+			else if(inputPoint>=63){
+				document.getElementById("gpa").innerHTML = "等第/GPA : C/2.0"; 
+			}
+			else if(inputPoint>=60){
+				document.getElementById("gpa").innerHTML = "等第/GPA : C-/1.7"; 
+			}
+			else if(inputPoint>=50){
+				document.getElementById("gpa").innerHTML = "等第/GPA : D/1.0"; 
+				document.getElementById("gpa").style.color = 'red'
+			}
+			else if(inputPoint>=1){
+				document.getElementById("gpa").innerHTML = "等第/GPA : E/0.0"; 
+				document.getElementById("gpa").style.color = 'red'
+			}
+			else{
+				document.getElementById("gpa").innerHTML = "等第/GPA : X/0.0";
+				document.getElementById("gpa").style.color = 'red' 
+			}
+		}
+
+
+
+		function goo(){
+			let inputPoint2 = document.getElementById("point2").value; 
+      		
+			if(inputPoint2=="A+"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 4.3/90~100"; 
+			}
+			else if(inputPoint2=="A"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 4.0/85~89"; 
+			}
+			else if(inputPoint2=="A-"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 3.7/80~84"; 
+			}
+			else if(inputPoint2=="B+"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 3.3/77~79"; 
+			}
+			else if(inputPoint2=="B"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 3.0/73~76"; 
+			}
+			else if(inputPoint2=="B-"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 2.7/70~72"; 
+			}
+			else if(inputPoint2=="C+"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 2.3/67~69"; 
+			}
+			else if(inputPoint2=="C"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 2.0/63~66"; 
+			}
+			else if(inputPoint2=="C-"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 1.7/60~62"; 
+			}
+			else if(inputPoint2=="D"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 1.0/50~59";
+				document.getElementById("G2").style.color = 'red' 
+			}
+			else if(inputPoint2=="E"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 0.0/1~49";
+				document.getElementById("G2").style.color = 'red'  
+			}
+			else if(inputPoint2=="X"){
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 0.0/0"; 
+				document.getElementById("G2").style.color = 'red' 
+			}
+			else{
+				document.getElementById("G2").innerHTML = "GPA/原始成績 : 錯誤"; 
+			}	
+			}
+
+	</script>
+</body>
+</html>
