@@ -1,0 +1,17 @@
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\bin\Debug\net6.0-windows\GAME.exe
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\bin\Debug\net6.0-windows\GAME.deps.json
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\bin\Debug\net6.0-windows\GAME.runtimeconfig.json
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\bin\Debug\net6.0-windows\GAME.dll
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\bin\Debug\net6.0-windows\GAME.pdb
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.vbproj.AssemblyReference.cache
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.Form1.resources
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.vbproj.GenerateResource.cache
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.AssemblyInfoInputs.cache
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.AssemblyInfo.vb
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.vbproj.CoreCompileInputs.cache
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.dll
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\refint\GAME.dll
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.pdb
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\GAME.genruntimeconfig.cache
+C:\Users\Tosha.E.T\source\repos\GAME\GAME\obj\Debug\net6.0-windows\ref\GAME.dll
