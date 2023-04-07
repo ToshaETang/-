@@ -1,0 +1,4 @@
+STA_NO：測站代碼（秀巒NW07；玉峰NW08；高義NW24；榮華壩NW10；霞雲NW23）
+TBD：濁度(NTU)
+TBDCAL：濁度推估(NTU)
+SS：懸浮固體(g/ℓ)
